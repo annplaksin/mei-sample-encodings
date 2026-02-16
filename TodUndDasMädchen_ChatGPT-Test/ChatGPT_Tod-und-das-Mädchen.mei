@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+   <meiHead xml:id="m1d1zhnr">
+      <fileDesc xml:id="f6dxm9c">
+         <titleStmt xml:id="tbsgxl1">
+            <title>Der Tod und das Mädchen – Etwas geschwinder</title>
+            <respStmt>
+               <persName role="composer">Franz Schubert</persName>
+               <persName role="poet">Claudius</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt xml:id="p1tqd2mm" />
+      </fileDesc>
+      <encodingDesc xml:id="eperbka">
+         <appInfo xml:id="acf79ds">
+            <application xml:id="a8z03no" isodate="2025-12-07T20:56:29" version="5.7.0-7135340">
+               <name xml:id="ndw9wsv">Verovio</name>
+               <p xml:id="p14fey54">Transcoded from MusicXML</p>
+            </application>
+         </appInfo>
+      </encodingDesc>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv xml:id="xszte1g">
+            <score xml:id="ygiw7ea">
+               <scoreDef xml:id="zif4hzb">
+                  <staffGrp xml:id="b1ppri69">
+                     <staffDef xml:id="P1" n="1" lines="5" ppq="2">
+                        <label xml:id="cflg4q6">Singstimme</label>
+                        <clef xml:id="m181psma" shape="G" line="2" />
+                        <keySig xml:id="nxoppsk" sig="1f" />
+                        <meterSig xml:id="o1vgahb8" count="4" unit="4" />
+                     </staffDef>
+                     <staffDef xml:id="P2" n="2" lines="5" ppq="2">
+                        <label xml:id="d1rpwdf0">Pianoforte</label>
+                        <clef xml:id="n1ggkben" shape="G" line="2" />
+                        <keySig xml:id="o1n2plcw" sig="1f" />
+                        <meterSig xml:id="per5chq" count="4" unit="4" />
+                     </staffDef>
+                  </staffGrp>
+               </scoreDef>
+               <section xml:id="a1olp6jl">
+                  <measure xml:id="p1sgppir" n="1">
+                     <staff xml:id="y1hv7y6" n="1">
+                        <layer xml:id="c12bm9ym" n="1">
+                           <note xml:id="d1apbhqg" dur.ppq="2" oct="5" pname="f">
+                              <verse xml:id="evhd71y" n="1">
+                                 <syl xml:id="f7mhcky" con="s" wordpos="s">Vor-</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="hj8q8pt" dur.ppq="2" oct="5" pname="e" accid.ges="f">
+                              <verse xml:id="j1g4nyzp" n="1">
+                                 <syl xml:id="k11s69di" con="s" wordpos="s">ü-</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="mdwb5cn" dur.ppq="4" oct="5" pname="d">
+                              <verse xml:id="nree6av" n="1">
+                                 <syl xml:id="o1yyftfn" con="s" wordpos="s">ber,</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                     <staff xml:id="z11yod" n="2">
+                        <layer xml:id="az33wj" n="1">
+                           <note xml:id="c1yfjsp3" dur.ppq="2" oct="5" pname="c" />
+                           <note xml:id="damlzat" dur.ppq="2" oct="5" pname="e" />
+                        </layer>
+                     </staff>
+                     <staff xml:id="o8d5p3h" n="2">
+                        <layer xml:id="pqic5j6" n="1">
+                           <note xml:id="qoma21g" dur.ppq="2" oct="2" pname="a" />
+                           <note xml:id="r1202q1v" dur.ppq="2" oct="3" pname="e" />
+                           <note xml:id="s1vv6585" dur.ppq="2" oct="3" pname="a" />
+                        </layer>
+                     </staff>
+                     <tempo xml:id="zy6wjrv" place="above" staff="1" tstamp="1" mm="54"> = 54</tempo>
+                  </measure>
+                  <measure xml:id="q1a8qdnl" n="2">
+                     <staff xml:id="z1c9qyzb" n="1">
+                        <layer xml:id="adz1u0k" n="1">
+                           <note xml:id="b157o3b3" dur.ppq="2" oct="5" pname="f">
+                              <verse xml:id="c1dn9z8e" n="1">
+                                 <syl xml:id="dcgetph" con="s" wordpos="s">ach</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="f1k5j5oc" dur.ppq="2" oct="5" pname="e" accid.ges="f">
+                              <verse xml:id="hwt23of" n="1">
+                                 <syl xml:id="i2cwgxm" con="s" wordpos="s">vor-</syl>
+                              </verse>
+                           </note>
+                           <note xml:id="k36dqxj" dur.ppq="4" oct="5" pname="d">
+                              <verse xml:id="l10wys6f" n="1">
+                                 <syl xml:id="mwo9lvl" con="s" wordpos="s">ü-</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+                  <measure xml:id="oje2je9" metcon="false" n="3">
+                     <staff xml:id="x14h6fv1" n="1">
+                        <layer xml:id="yf3hd83" n="1">
+                           <note xml:id="z1ij7khq" dur.ppq="4" oct="5" pname="c">
+                              <verse xml:id="a7zh7nl" n="1">
+                                 <syl xml:id="b1f56eu2" con="s" wordpos="s">ber!</syl>
+                              </verse>
+                           </note>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
