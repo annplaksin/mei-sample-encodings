@@ -11,7 +11,7 @@
             </respStmt>
          </titleStmt>
          <pubStmt>
-         	<availability>
+            <availability>
                <useRestrict auth.uri="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</useRestrict>
             </availability>
          </pubStmt>
@@ -21,13 +21,13 @@
       <body>
          <mdiv>
             <score>
+               <scoreDef>
+                  <staffGrp>
+                     <staffDef notationtype="mensural.white" n="1" lines="5" clef.shape="C" clef.line="2" 
+                               mensur.sign="C" tempus="2" prolatio="2" modusmaior="2" modusminor="2" />
+                  </staffGrp>
+               </scoreDef>
                <section>
-                  <scoreDef>
-                     <staffGrp>
-                        <staffDef notationtype="mensural.white" n="1" lines="5" clef.shape="C" clef.line="2" 
-                                  mensur.sign="C" tempus="2" prolatio="2" modusmaior="2" modusminor="2" />
-                     </staffGrp>
-                  </scoreDef>
                   <measure n="1">
                      <staff n="1">
                         <layer n="1">
@@ -38,8 +38,6 @@
                         </layer>
                      </staff>
                   </measure>
-               </section>
-               <section>
                   <scoreDef>
                      <staffGrp>
                         <staffDef notationtype="cmn" n="1" lines="5" clef.shape="G" clef.line="2" meter.count="4" meter.unit="4" />
