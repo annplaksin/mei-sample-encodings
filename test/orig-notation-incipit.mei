@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="https://music-encoding.org/schema/5.1/mei-all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="https://music-encoding.org/schema/4.1/mei-all.rng" type="application/xml" schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<mei xmlns="http://www.music-encoding.org/ns/mei" meiversion="5.1">
+   <meiHead>
+      <fileDesc>
+         <titleStmt>
+            <title>Test: Incipit in original notation</title>
+            <respStmt>
+               <persName xml:id="ap" auth="GND" auth.uri="https://d-nb.info/gnd/" codedval="1229022201" role="encoder">Anna Plaksin</persName>
+            </respStmt>
+         </titleStmt>
+         <pubStmt>
+            <availability>
+               <useRestrict auth.uri="https://creativecommons.org/licenses/by-sa/4.0/">CC BY-SA 4.0</useRestrict>
+            </availability>
+         </pubStmt>
+      </fileDesc>
+      <manifestationList>
+         <manifestation>
+            <identifier>Some source</identifier>
+            <titleStmt>
+               <title>Some original source</title>
+            </titleStmt>
+            <physDesc>
+               <incip>
+                     <score>
+                        <scoreDef>
+                           <staffGrp>
+                              <staffDef notationtype="mensural.white" n="1" lines="5" clef.shape="C" clef.line="2" 
+                                        mensur.sign="C" tempus="2" prolatio="2" modusmaior="2" modusminor="2" />
+                           </staffGrp>
+                        </scoreDef>
+                        <section>
+                           <measure n="1">
+                              <staff n="1">
+                                 <layer n="1">
+                                    <note dur="minima" oct="4" pname="e"/>
+                                    <note dur="minima" oct="4" pname="d"/>
+                                    <note dur="minima" oct="4" pname="c"/>
+                                    <note dur="minima" oct="4" pname="d"/>
+                                 </layer>
+                              </staff>
+                           </measure>
+                        </section>
+                     </score>
+               </incip>
+            </physDesc>
+         </manifestation>
+      </manifestationList>
+   </meiHead>
+   <music>
+      <body>
+         <mdiv>
+            <score>
+               <section>
+                  <scoreDef>
+                     <staffGrp>
+                        <staffDef notationtype="cmn" n="1" lines="5" clef.shape="G" clef.line="2" meter.count="4" meter.unit="4" />
+                     </staffGrp>
+                  </scoreDef>
+                  <measure n="1">
+                     <staff n="1">
+                        <layer n="1">
+                           <note dur="4" oct="4" pname="e"/>
+                           <note dur="4" oct="4" pname="d"/>
+                           <note dur="4" oct="4" pname="c"/>
+                           <note dur="4" oct="4" pname="d"/>
+                        </layer>
+                     </staff>
+                  </measure>
+               </section>
+            </score>
+         </mdiv>
+      </body>
+   </music>
+</mei>
